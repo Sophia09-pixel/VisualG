@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main(void) {
+  int x;
+  int resultado;
+  int i;
+
+  printf("digite um numero\n");
+
+  scanf("%i",&x);
+
+  for(i=0; i<=10; i++){
+
+   resultado= x*i; 
+  
+    printf("%i x %i= %i\n",x,i,resultado);
+  }
+
+  return 0;
+}
