@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main(void) {
+  int primeironumero;
+  int segundonumero;
+  
+  printf("digite um primeironumero\n");
+  scanf("%i",&primeironumero);
+  printf("o valor que eu digitei e: %i\n",primeironumero); 
+   printf("digite um numero\n");
+  scanf("%i",&segundonumero);
+  printf("o valor que eu digitei e: %i\n",segundonumero);
+  if(primeironumero>segundonumero){
+    printf("primeiro numero e maior que o segundo numero\n");
+  }else{
+    printf("segundo numero e maior que o primeiro numero\n");
+  }
+  return 0;
+}
